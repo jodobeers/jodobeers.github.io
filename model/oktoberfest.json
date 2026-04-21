@@ -1,0 +1,59 @@
+{
+  "pages": [
+    {
+      "pageId": "employeePageId",
+      "header": "Información",
+      "icon": "./assets/img/Rubia.jpg",
+      "displayShape": "Circle",
+      "title": "Jodo Oktoberfest",
+      "description": "Cerveza Rubia",
+      "groups": [
+        {
+          "heading": "Características",
+          "elements": [
+            {
+              "label": "Color",
+              "value": "Ambarino, cobrizo o dorado intenso, con gran transparencia y espuma persistente",
+              "elementType": "text"
+            },
+            {
+              "label": "Sabor y Aroma",
+              "value": "Predominio de la malta, con notas a galleta, nuez y pan tostado. Amargor de lúpulo bajo a moderado, solo para equilibrar",
+              "elementType": "text"
+            },
+            {
+              "label": "Alcohol",
+              "value": "Generalmente entre 5.8% y 6.3% ABV, ligeramente superior a una lager estándar",
+              "elementType": "text"
+            }
+          ]
+        },
+        {
+          "heading": "Componentes",
+          "elements": [
+            {
+              "label": "Maltas",
+              "value": "3 kg Malta Munich, 2 kg Malta Viena, 0.5 kg Malta Pilsner, 0.25 kg Malta Carapils ",
+              "elementType": "text"
+            },
+            {
+              "label": "Lupulos",
+              "value": "30-40 g Hallertau Mittlefrüh o Hersbrucker, 15-20 g Hallertau Mittlefrüh o Hersbrucker ",
+              "elementType": "text"
+            },
+            {
+              "label": "Levadura",
+              "value": "2 sobres de levadura Lager seca (Saflager W-34/70 o S-23)",
+              "elementType": "text"
+            },
+            {
+              "label": "Agua",
+              "value": "Agua con bajo contenido de carbonatos",
+              "elementType": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
