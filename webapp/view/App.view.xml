@@ -1,0 +1,17 @@
+<mvc:View
+    controllerName="jodobeers.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    displayBlock="true"
+>
+    <Shell
+        logo="./assets/img/Logo_redonda.png"
+        backgroundImage="./assets/img/background_claro.png"
+    >
+        <App>
+            <pages>
+                <mvc:XMLView viewName="jodobeers.view.Overview" />
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
