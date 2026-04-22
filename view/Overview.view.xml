@@ -40,13 +40,6 @@
                         wrap="Wrap"
                         justifyContent="SpaceAround"
                     >
-                        <!--                       
-                        <VBox
-                            class="sapUiSmallMargin"
-                            width="300px"
-                            alignItems="Center"
-                        >
-                        -->
                         <GenericTile
                             header="{nombre}"
                             press=".onPressTile"
@@ -57,27 +50,6 @@
                                 <ImageContent src="{imagen}" />
                             </TileContent>
                         </GenericTile>
-                        <!--                        
-                            <Image
-                                src="{imagen}"
-                                width="100%"
-                                height="200px"
-                                densityAware="false"
-                                class="sapUiSmallMarginBottom"
-                            />
-                            <Title
-                                text="{nombre}"
-                                titleStyle="H3"
-                                class="sapUiSmallMarginBottom"
-                            />
-                            <Text
-                                text="{descripcion}"
-                                textAlign="Center"
-                            />
- -->
-                        <!--   
-                        </VBox>
-                        -->
                     </HBox>
                 </IconTabFilter>
                 <IconTabFilter
@@ -112,7 +84,7 @@
                                 class="sapUiSmallMarginBottom"
                             />
                             <Title
-                                text="{nombre} / {alias}"
+                                text="{nombre}"
                                 titleStyle="H2"
                                 class="sapUiSmallMarginBottom"
                             />
@@ -146,20 +118,15 @@
                 </IconTabFilter>
             </items>
         </IconTabBar>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer />
 
-        <content>
-            <GenericTile
-                class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
-                header="JodoJessica D. Prince Senior Consultant"
-                subheader="Black Beer"
-                press=".press"
-                appShortcut="shortcut"
-                systemInfo="systeminfo"
-            >
-                <TileContent>
-                    <ImageContent src="./assets/img/6A.jpg" />
-                </TileContent>
-            </GenericTile>
-        </content>
+                <Text
+                    text="Powered by Jodo Labs and SAP OpenUI5"
+                    class="sapUiMediumMarginEnd textoPersonalizado"
+                />
+            </Toolbar>
+        </footer>
     </Page>
 </mvc:View>

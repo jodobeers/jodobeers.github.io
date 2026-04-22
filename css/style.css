@@ -1,1 +1,6 @@
 /* Enter your custom styles here */
+/* Aquí defines tu clase con el tamaño que quieras */
+.textoPersonalizado {
+  font-size: 0.8rem !important; /* También puedes usar px, ej: 18px */
+  font-weight: bold; /* Opcional: poner en negrita */
+}
